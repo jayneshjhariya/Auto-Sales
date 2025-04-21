@@ -1,46 +1,21 @@
 1. Sales & Product Insights
 	a. What is the total sales revenue for each PRODUCTLINE?
-	   (Group by product line to see which one is generating the most revenue.)
-
 	b. Which PRODUCTCODE has the highest total sales (SALES)?
-	   (Find the top-selling product overall.)
-
 	c. What is the average PRICEEACH and QUANTITYORDERED per PRODUCTLINE?
-	   (Evaluate pricing and sales volume per category.)
-
 	d. What is the total number of orders and total sales for 'Motorcycles' vs 'Classic Cars'?
-	   (Direct comparison between two popular lines.)
-
 
 2. Customer Behavior
 	a. Which customers have placed the highest number of orders?
-	   (Group by CUSTOMERNAME, count ORDERNUMBER.)
-
 	b. What is the average DAYS_SINCE_LASTORDER for each customer?
-	   (Identify customers who may need follow-up or re-engagement.)
-
 	c. Which country has the highest total sales?
-	   (Group by COUNTRY, sum SALES.)
-
 	d. What is the total sales for each product line across different countries?
-	   (Group by COUNTRY, PRODUCTLINE; sum SALES.)
 
 3. Time-based Analysis
 	a. How have total sales trended month-over-month or year-over-year?
-	   (Use ORDERDATE to group by month/year.)
-
 	b. What are the peak months for ordering each PRODUCTLINE?
-	   (Group by PRODUCTLINE and month from ORDERDATE.)
 
 4. Deal & Revenue Analysis
 	a. What is the average SALES per DEALSIZE category?
-	   (See how deal size relates to revenue—small, medium, large.)
-
 	b. How many orders fall under each deal size category?
-	   (Group by DEALSIZE, count distinct ORDERNUMBER.)
-
 	c. Which deal size generates the highest average revenue per order?
-	   (Group by DEALSIZE, divide total SALES by count of distinct ORDERNUMBER.)
-	
 	d. What is the distribution of deal sizes across product lines?
-	   (Group by PRODUCTLINE, DEALSIZE, count ORDERNUMBER.)
